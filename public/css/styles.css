@@ -1,0 +1,67 @@
+html {
+  background-color: #E4E9FD;
+  background-image: -webkit-linear-gradient(65deg, #df651e 50%, #E4E9FD 50%);
+  min-height:100%;
+  font-family: 'helvetica neue';
+}
+body {
+  margin: 0;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+#page-heading{
+  text-align: center;
+  margin-top: 15px;
+  color: rgb(116, 12, 12);
+}
+button{
+  color: whitesmoke ;
+  background-color: rgb(58, 12, 16);
+}
+.outer-div{
+  width: 370px;
+    height: 500px;
+  position: absolute;
+  top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  margin: auto;
+}
+.contact-list-container ul{
+  padding: 0;
+  list-style: none;
+  
+}
+.contact{
+  padding: 3px 10px;
+  border: 1px solid white;
+  background-color: #5e3117;
+  box-shadow: 1px 1px 1px 1px lightgrey;
+  color: white;
+  display: flex;
+  
+}
+.contact-list-container :hover{
+  background-color: #54708b;
+
+}
+.contact .details{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 90%;
+}
+
+.contact p{
+  margin: 5px 0;
+}
+input{
+  width:  40%;
+}
+.close-button{
+  text-align: center;
+  padding: 3px;
+  margin-top: 5px;
+  
+}
