@@ -18,13 +18,16 @@ button{
   background-color: rgb(58, 12, 16);
 }
 .outer-div{
-  width: 370px;
-    height: 500px;
+  border: 25px solid brown;
+  border-radius: 20px;
+  padding: 10px 30px;
+  max-width: 370px;
+  max-height: 400px;
   position: absolute;
   top:0;
-    bottom: 0;
-    left: 0;
-    right: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
   margin: auto;
 }
 .contact-list-container ul{
@@ -39,7 +42,7 @@ button{
   box-shadow: 1px 1px 1px 1px lightgrey;
   color: white;
   display: flex;
-  
+  cursor: pointer;
 }
 .contact-list-container :hover{
   background-color: #54708b;
@@ -57,11 +60,25 @@ button{
   margin: 5px 0;
 }
 input{
-  width:  40%;
+  width:40%;
+  height: 20px;
+}
+input:hover{
+  border: 2px solid #54708b ;
+}
+button:hover{
+  border: 2px solid #e91f00;
 }
 .close-button{
   text-align: center;
   padding: 3px;
-  margin-top: 5px;
-  
+  /* margin-top: 5px; */
+  margin: auto;
+}
+
+.fa-window-close{
+  color: rgb(255, 123, 0);
+}
+.fa-window-close:hover{
+  transform: scale(1.2) ;
 }
